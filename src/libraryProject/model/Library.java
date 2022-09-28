@@ -12,4 +12,19 @@ public class Library {
         this.libraryMembers = new ArrayList<>();
     }
 
+    public List<Book> getBooks() {
+        return books;
+    }
+
+    public void setBooks(List<Book> books) {
+        this.books = books;
+    }
+
+    public List<LibraryMember> getLibraryMembers() {
+        return libraryMembers;
+    }
+
+    public void setLibraryMembers(List<LibraryMember> libraryMembers) {
+        this.libraryMembers = libraryMembers;
+    }
 }

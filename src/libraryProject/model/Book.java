@@ -58,4 +58,15 @@ public class Book {
     public void setCurrentHolder(LibraryMember currentHolder) {
         this.currentHolder = currentHolder;
     }
+
+    @Override
+    public String toString() {
+        return "Book:" +
+                "\n bookId = " + bookId +
+                "\n title = " + title + '\'' +
+                "\n yearOfProduction = " + yearOfProduction +
+                "\n author = " + author + '\'' +
+                "\n status = " + status +
+                "\n currentHolder this \n = " + currentHolder + "\n" ;
+    }
 }
